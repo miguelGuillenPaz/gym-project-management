@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<DemoMVC.Models.EstimadoRapidoForm>" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<GyM.ProjectManagement.Models.EstimadoRapidoForm>" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
 	EstimadoRapido
@@ -29,7 +29,7 @@
                <td border="0" colspan="4"><select name='tipo'>
 
                <% if (Model.ListadoTipoProyecto != null) {
-                      foreach (DemoMVC.Models.TipoProyecto item in Model.ListadoTipoProyecto)  { %>
+                      foreach (GyM.ProjectManagement.Models.TipoProyecto item in Model.ListadoTipoProyecto)  { %>
                         <option value='<%= item.codTipPro %>'><%= item.nomTipPro %></option>
                <% }%>
             <% }%>
@@ -58,7 +58,7 @@
                <td border="0">
                <select name='departamento'>
                <% if (Model.ListadoUbigeoDep != null) {
-                      foreach (DemoMVC.Models.Ubigeo item in Model.ListadoUbigeoDep)  { %>
+                      foreach (GyM.ProjectManagement.Models.Ubigeo item in Model.ListadoUbigeoDep)  { %>
                         <option value='<%= item.codUbiDep %>' <%= item.selected %> ><%= item.nomUbiDep %></option>
                   <% }%>
                <% }%>
@@ -66,7 +66,7 @@
                <td border="0">
                <select name='provincia'>
                <% if (Model.ListadoUbigeoProv != null) {
-                      foreach (DemoMVC.Models.Ubigeo item in Model.ListadoUbigeoProv)  { %>
+                      foreach (GyM.ProjectManagement.Models.Ubigeo item in Model.ListadoUbigeoProv)  { %>
                         <option value='<%= item.codUbiProv %>' <%= item.selected %> ><%= item.nomUbiProv %></option>
                   <% }%>
                <% }%>
@@ -74,7 +74,7 @@
                <td border="0">
                <select name='distrito'>
                <% if (Model.ListadoUbigeoDist != null) {
-                      foreach (DemoMVC.Models.Ubigeo item in Model.ListadoUbigeoDist)  { %>
+                      foreach (GyM.ProjectManagement.Models.Ubigeo item in Model.ListadoUbigeoDist)  { %>
                         <option value='<%= item.codUbiDist %>' <%= item.selected %> ><%= item.nomUbiDist %></option>
                   <% }%>
                <% }%>
@@ -98,7 +98,7 @@
     		  </tr>
               <% 
                   if (Model.ListadoProyectoHist != null) { 
-                  foreach (DemoMVC.Models.ProyectoHist item in Model.ListadoProyectoHist) { %>
+                  foreach (GyM.ProjectManagement.Models.ProyectoHist item in Model.ListadoProyectoHist) { %>
 			      <tr>
 			        <td align="center">PROY<%: item.codPro %></td>
 			        <td><%: item.nomPro %></td>

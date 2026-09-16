@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<IEnumerable<DemoMVC.Models.DetallePresupuesto>>" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<IEnumerable<GyM.ProjectManagement.Models.DetallePresupuesto>>" %>
 
 <asp:Content ID="PlanTitle" ContentPlaceHolderID="TitleContent" runat="server">
     CrearPlan

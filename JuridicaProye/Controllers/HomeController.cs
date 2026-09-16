@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using DemoMVC.Models;
+using GyM.ProjectManagement.Models;
 
-namespace DemoMVC.Controllers
+namespace GyM.ProjectManagement.Controllers
 {
     [HandleError]
     public class HomeController : Controller

@@ -8,7 +8,7 @@
     <%--<script src="../../Scripts/jquery-1.4.1.js" type="text/javascript" />--%>
     <%--<script src="../../Scripts/jquery-1.4.1-vsdoc.js" type="text/javascript" />--%>
     <%--
-        var listaPlan = ViewData["listaPlan"] as List<appGYM.Models.GYM_Plan>;
+        var listaPlan = ViewData["listaPlan"] as List<GyM.ProjectManagement.Models.GYM_Plan>;
 
     --%>
     

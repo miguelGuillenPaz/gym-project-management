@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<DemoMVC.Models.LogOnModel>" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<GyM.ProjectManagement.Models.LogOnModel>" %>
 
 <asp:Content ID="loginTitle" ContentPlaceHolderID="TitleContent" runat="server">
     Log On

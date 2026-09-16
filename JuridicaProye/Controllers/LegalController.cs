@@ -4,10 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-using DemoMVC.Models;
-using DemoMVC.Persistencia;
+using GyM.ProjectManagement.Models;
+using GyM.ProjectManagement.Persistencia;
 
-namespace DemoMVC.Controllers
+namespace GyM.ProjectManagement.Controllers
 {
     public class LegalController : Controller
     {
