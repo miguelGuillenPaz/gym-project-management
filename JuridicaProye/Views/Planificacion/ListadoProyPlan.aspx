@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<IEnumerable<DemoMVC.Models.Proyecto>>" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<IEnumerable<GyM.ProjectManagement.Models.Proyecto>>" %>
 
 <asp:Content ID="TituloPlan" ContentPlaceHolderID="TitleContent" runat="server">
     ListadoProyPlan

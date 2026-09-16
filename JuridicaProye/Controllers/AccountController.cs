@@ -7,9 +7,9 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
-using DemoMVC.Models;
+using GyM.ProjectManagement.Models;
 
-namespace DemoMVC.Controllers
+namespace GyM.ProjectManagement.Controllers
 {
 
     [HandleError]

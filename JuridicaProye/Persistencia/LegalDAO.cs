@@ -8,9 +8,9 @@ using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Collections;
 
-using DemoMVC.Models;
+using GyM.ProjectManagement.Models;
 
-namespace DemoMVC.Persistencia
+namespace GyM.ProjectManagement.Persistencia
 {
     public class LegalDAO
     {

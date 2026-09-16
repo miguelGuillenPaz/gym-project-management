@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace DemoMVC.Persistencia
+namespace GyM.ProjectManagement.Persistencia
 {
     public class ConexionUtil
     {

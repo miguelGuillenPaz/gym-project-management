@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Web.Mvc;
 using System.Linq;
-using DemoMVC.Models;
+using GyM.ProjectManagement.Models;
 
-namespace DemoMVC.Controllers
+namespace GyM.ProjectManagement.Controllers
 {
     public class PersonaController : Controller
     {
